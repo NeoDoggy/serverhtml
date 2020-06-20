@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width">
+    <title>First Of All</title>
+  </head>
+  <body style="background-color:black">
+                <p style = "font-family:garamond,serif;font-size:16px;">
+		<font color="#32CD32">
+		[<span id="datetime1"></span>][System] > usr.enter<br>
+                [<span id="datetime2"></span>][System] > cmd.echo > Generating rules<br>
+                [<span id="datetime3"></span>][System] > cmd.generate.{src="rules.prg"} ><br>
+		</font>
+		</p>
+	<table width="1200" height="10">
+　	<tr><td align="center">
+		<p style = "font-family:garamond,serif;font-size:16px;border:2px limegreen solid;">
+         	<font color="#32CD32">
+		<br><b>Ru1e5：</b><br>
+			1.In every page,which you can find a username and password in,has a direct link below .After you find the usrnm and passwd,click it to confirm. <br>
+			2.After commiting the usrnm & passwd,the page will send you to the next page .Plz remember the page's weblink or else you'll replay the game after you close your browswer.<br>
+			3.If you don't know the answer, you can click on {cancel} on the commit page, at that time, it will pop out a permission denied and the USEFUL TIP ！<br>
+			4.Have FUN !<br>
+			<br><b><系統變更：中文></b><br>
+			1.在每一頁(題目)中，你可以找到一組使用者名稱與密碼。當你找到後，請點擊下方的連結來輸入帳密。<br>
+			2.再輸入正確的帳密後，系統會自動傳送你到下一個題目。切記，每當你完成一個題目，請記住他的網址以便在關閉瀏覽器後方能重新連結到該題。<br>
+			3.當不知道當題的答案時，可以先前往輸入頁面，按下取消鍵，屆時，系統會跳出權限被拒及「有用的提示」。<br>
+			4.玩得開心！<br>
+			<br><br>Click on the link below to try a test commit ( Remember that the username and password will always be like usn{} & psw{} )<br>
+			usn{testcommit},psw{passwd}
+		</font>
+		<a href="http://yiarashi.com/user9/firstofall/testcommit/"><br><br><font color="#32CD32">→</font></a><br><br>
+      		</p>
+	</td></tr>
+	</table>
+	<script>
+                var today = new Date();
+                var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+                var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+                var datetime = date+' '+time;
+                document.getElementById("datetime1").innerHTML = datetime.toLocaleString();
+                document.getElementById("datetime2").innerHTML = datetime.toLocaleString();
+                document.getElementById("datetime3").innerHTML = datetime.toLocaleString();
+        </script>
+  </body>
+</html> 

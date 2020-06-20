@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width">
+    <title>H3110 W0R1D</title>
+  </head>
+  <body style="background-color:black">
+		<p style = "font-family:garamond,serif;font-size:16px;">
+                <font color="#32CD32">
+		[<span id="datetime1"></span>][System] > usr.enter<br>
+                [<span id="datetime2"></span>][System] > cmd.echo > Hi,welcome !<br>
+                [<span id="datetime3"></span>][System] > cmd.generate.{src="welcome.prg"} ><br>		
+		</p>
+		</font>
+    	<table width="600" height="10">
+　	<tr><td align="center">
+		<p style = "font-family:garamond,serif;font-size:16px;border:2px limegreen solid;">
+         	<font color="#32CD32"><b>
+		<br>Welcome kiddo！<br>
+		You've stepped into a ▉▉▉▉▉ ▉▉▉▉▉.<br>
+		Letz have FUN οωο！<br><br>
+		╣NOTICE╠<br>
+		Considering people that are bad at English,<br>this time we're going to use Chinese in certain questions in this website instead.<br>
+		Click the link below to get to the new website<br>↓</font>
+		<a href="http://yiarashi.com/user9/firstofall/"><br><br><font color="#32CD32">GO！</font></a><br><br>
+      		</p>
+	</td></tr>
+	</table>
+		<script>
+			var today = new Date();
+                	var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+                	var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+                	var datetime = date+' '+time;
+                	document.getElementById("datetime1").innerHTML = datetime.toLocaleString();
+                	document.getElementById("datetime2").innerHTML = datetime.toLocaleString();
+                	document.getElementById("datetime3").innerHTML = datetime.toLocaleString();
+		</script>
+  </body>
+</html> 

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width">
+    <title>TotarialPgr.exit()</title>
+  </head>
+  <body style="background-color:black">
+		<p style = "font-family:garamond,serif;font-size:16px;">
+         	<font color="#32CD32">
+			[<span id="datetime1"></span>][System] > Logined<br>
+			[<span id="datetime2"></span>][System] > cmd.echo > It's easy right ?! So now letz get on to the first one .<br>
+			[<span id="datetime3"></span>][System] > cmd.generate.{src="newLink.lnk"} > 
+		</font>
+		<a href="http://yiarashi.com/user9/gameF/ONE/"><font color="#32CD32">[Click]</font></a><br>
+      		</p>
+		<script>
+			var today = new Date();
+			var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+			var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+			var datetime = date+' '+time;
+			document.getElementById("datetime1").innerHTML = datetime.toLocaleString();
+			document.getElementById("datetime2").innerHTML = datetime.toLocaleString();
+			document.getElementById("datetime3").innerHTML = datetime.toLocaleString();
+		</script>
+  </body>
+</html> 
